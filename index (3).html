@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<htmL lang="en">
+
+<head>
+    <title>Rent Car Jordan</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/iiAACoX.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        /*main rules*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #232f3f;
+    color: #e1e4eb;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height:100%;
+}
+
+/*mobile rules*/
+/*header*/
+.logo {
+    width: 35%;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-family: 'Anton', sans-serif;
+    color: #ecb771;
+    font-weight: 400;
+    font-size: 75px;
+    margin-top:-40px;
+
+}
+
+header p {
+    padding-top: 30px;
+
+    font-size: 60px;
+}
+
+header img {
+    width: 65%;
+    padding: 10px;
+    margin-bottom:40px;
+    
+}
+
+#play {
+    margin-top: 70px;
+    height: 150px;
+
+}
+
+
+/*contact us*/
+.contactus {
+    background-color: #18202b;
+    padding: 10px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-top:auto;
+}
+
+.contactus address {
+    padding: 10px;
+}
+
+.contactus p {
+    display: inline-block;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.contactus footer {
+    padding: 10px;
+    font-size: 35px;
+}
+
+.cicon {
+    width: 5%;
+    margin: auto 15px;
+}
+
+.cicons {
+    margin-left: 0;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+    .contactus {
+        background-color: #18202b;
+
+        padding: 10px;
+
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+/*desktop rules*/
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+    
+    /*header*/
+    .container {
+        width: 960px;
+    }
+
+    .logo {
+        width: 13%;
+        margin-top:19px;
+    }
+
+    header h1 {
+        font-size: 35px;
+
+    }
+
+    header p {
+        font-size: 29px;
+        margin-bottom: 60px;
+    }
+
+    header img {
+        width: 19%;
+        margin-bottom: 30px;
+    }
+
+    #play {
+        height: 85px;
+    }
+
+    /*contact us*/
+    .contactus p {
+        font-size: 16px;
+        padding:5px;
+    }
+
+    .cicon {
+        width: 2%;
+        margin: auto 2px;
+    }
+
+    .contactus footer {
+        font-size: 16px;
+        padding:5px;
+    }
+
+    #play {
+        margin-top: 20px;
+        height:72px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--header-->
+        <div class='container'>
+            <img src='https://i.imgur.com/8XhJOmS.png' class='logo'>
+            <h1>Rent Car Jordan </h1>
+            <p>Rent car jo offers to facilitate the process of booking the tourist cars by booking the car you want and
+                fix the booking date for you and thus facilitate you the process in terms of time and effort...</p>
+            <a href='https://play.google.com/store/apps/details?id=com.jordanrentcar' target='_blank' ><img src='https://i.imgur.com/UoR3yWn.png' id='play'></a>
+            <a href='https://www.apple.com/ios/app-store/' target='_blank'><img src='https://i.imgur.com/caClrW4.png' id='apple'></a>
+        </div>
+    </header>
+
+    <!--footer-->
+    <div class='contactus'>
+        <div class='container'>
+            <address>
+                <img src='https://i.imgur.com/Sv20LkF.png' class='cicon , cicons'>
+                <p>Phone number: +962789187005</p><br>
+                <img src='https://i.imgur.com/fH4NcAW.png' class='cicon '>
+                <p>E-mail : support@car-jo.com</p>
+            </address>
+            <footer>© 2019 - 2020 Car Jo</footer>
+        </div>
+    </div>
+</body>
+
+</htmL>
